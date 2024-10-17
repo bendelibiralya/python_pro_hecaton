@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poster creator</title>
+
+    <!-- Google Fonts: Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+            background-color: #70D4FF;
+            color: #02A144;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            padding: 40px;
+            border: 3px solid #02DE5E;
+            border-radius: 20px;
+            background-color: #fff;
+            max-width: 800px;
+            width: 90%;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+            color: #02A144;
+        }
+
+        p {
+            font-size: 20px;
+            color: #333;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .btn {
+            font-size: 20px;
+            padding: 12px 30px;
+            background-color: #02DE5E;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn:hover {
+            background-color: #99E0FF;
+            color: #02DE5E;
+        }
+
+        .image-block {
+            position: absolute;
+            top: -80px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 145px;
+            height: 145px;
+            border-radius: 50%;
+            background-color: #02A144;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .image-block img {
+            width: 115px;
+            height: 115px;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            right: 20px;
+        }
+
+        .footer-link {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 20px;
+            text-decoration: none;
+            color: #02A144;
+            transition: color 0.3s ease;
+        }
+
+        .footer-link:hover {
+            color: #99E0FF;
+        }
+
+        .footer-link img {
+            width: 30px;
+            height: 30px;
+        }  
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="image-block">
+            <img src="/static/img/logo.png" alt="Logo">
+        </div>
+        <h1>Welcome!</h1>
+        <p>Welcome to our website where we help you create your poster and raise awareness on our World's biggest problem climate change!</p>
+        <a href="/main">
+            <button class="btn">Start Your Poster</button>
+        </a>
+        <div class="footer-links">
+            <a href="https://discord.gg/RpgyAQpNj9" class="footer-link">
+                <img src="static\img\discordlogo.png" alt="">
+                Our Discord Group
+            </a>
+            <a href="https://github.com/bendelibiralya/python_pro_hecaton" class="footer-link">
+                <img src="static\img\github-logo.png" alt="">
+                Our Github Repo
+            </a>
+        </div>
+    </div>
+    </div>
+
+</body>
+</html>
