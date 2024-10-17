@@ -1,7 +1,7 @@
 # İklim Posterleri
 ## https://climatechangeisreal.pythonanywhere.com/
 ## Projemin Fikri:
-> İkli değişikliği üzerine poster hazırlamak için bir websitesi.
+> İklim değişikliği üzerine poster hazırlamak için bir websitesi.
 
 ## Projemin taslağı:
 - Meme generator
