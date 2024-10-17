@@ -1,7 +1,7 @@
 # python_pro_hecaton
 
 ## Projemin Fikri:
-> Meme Generator discord botu eşliğinde iklim değişikliğine olan duyarlılığı artırmak için afiş hazırlayacak.
+> İkli değişikliği üzerine poster hazırlamak için bir websitesi.
 
 ## Projemin taslağı:
 - Meme generator
