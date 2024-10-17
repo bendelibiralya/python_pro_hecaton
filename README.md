@@ -1,4 +1,4 @@
-# python_pro_hecaton
+# İklim Posterleri
 
 ## Projemin Fikri:
 > İkli değişikliği üzerine poster hazırlamak için bir websitesi.
